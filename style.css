@@ -1,0 +1,74 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+}
+
+/* Search */
+.search-box {
+    border-radius: 50px;
+    margin-top: 25px;
+    padding: 55px;
+    margin-bottom: -55px;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: white;
+}
+
+.main-box {
+    color: black;
+    margin-bottom: 18px;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+}
+.footer {
+    margin-top: 320px;
+    text-align: center;
+    color: #ACACAC;
+    border-radius: 30px;
+}
+.footer h4 {
+    font-weight: 200px;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.card-body p domain {
+    margin-top: -20px;
+}
+.alert {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+/* Desktop Mode */
+@media (min-width: 992px) {
+    .navbar {
+        text-transform: uppercase;
+    }
+    .search-box {
+        margin: 135px;
+        margin-bottom: -50px;
+        margin-top: 30px;
+    }
+    .card {
+        margin: 23px;
+        z-index: 1;
+    }
+    .footer h4 {
+        font-weight: 200px;
+        font-size: 17px;
+        margin-top: 12px;
+    }
+    .alert {
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        margin-left: 125px;
+        margin-right: 125px;
+        text-align: center;
+    }
+}
